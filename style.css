@@ -1,0 +1,59 @@
+body{
+ /* background: #CCCCCC REP HEXADECIMAL*/ 
+    /*
+    Nós enxergamos o espectro RGB, que quer dizer Red Green Blue. Ou seja, vermelho, verde e azul.
+    O zero é a ausência de cor, e o F é o máximo de cor. Então, se eu quiser representar, por exemplo, o preto, que é a ausência de todas as cores, coloco #000000. Ou seja, 00 para vermelho, 00 para verde e 00 para o azul. Se eu quiser representar o branco, coloco #FFFFFF. FF para o vermelho, FF para o verde e FF para o azul.
+    rgb(255,255,255)
+    rgb(0,0,255) AZUL
+    */
+}
+.titulo-princ{
+  padding-left: 20px;
+}
+#banner{ /*identificador #*/
+  width: 100%;
+}
+
+.principal{
+  background: #CCCCCC; /*REP HEXADECIMAL*/ 
+    padding: 30px;
+}
+
+#missao {
+ font-size: 20px;
+}
+/*h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+*/
+.titulo-center{
+  text-align: center;
+}
+p{
+   text-align:center;
+  /*background: #CCCCCC*/
+}
+em strong{
+ /* strong dentro de em*/
+  color: red;
+}
+
+.itens{ /*classe .*/
+  font-style: italic;
+}
+.beneficios{
+  background: #FFFFFF;
+  padding: 20px;
+}
+.imgbeneficios{
+ width: 50%; 
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width 20%;
+  margin-right : 15%;
+}
